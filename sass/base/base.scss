@@ -1,0 +1,78 @@
+@use "../utils/variables.scss";
+
+body {
+   font-family: "Roboto";
+   margin: 0;
+}
+
+h1 {
+   font-size: 24px;
+   font-weight: 700;
+   margin: 0;
+}
+
+h2 {
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.darker {
+   background-color: #f6f6f6;
+}
+
+.paddings {
+   padding: 30px 20px;
+}
+
+.welcome {
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   padding: 40px;
+   text-align: center;
+   p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #353535;
+   }
+}
+
+.btn-purple {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 16px;
+   padding: 16px;
+   margin: 15px;
+   border-radius: 40px;
+   border: none;
+   background: linear-gradient(#ff79da, #9356dc);
+}
+
+.fonctionnement-cards-container {
+   margin-bottom: 20px;
+   .fonctionnement-card {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 20px;
+      background-color: $lightgrey;
+      border-radius: 20px;
+      margin: 30px 15px;
+      padding: 30px;
+      box-shadow: 0 4px 15px 0 darken($lightgrey, 15%);
+
+      .number {
+         color: white;
+         background-color: $purple;
+         padding: 5px;
+         border-radius: 30px;
+      }
+
+      p {
+         font-weight: 500;
+         font-size: 16px;
+      }
+   }
+}

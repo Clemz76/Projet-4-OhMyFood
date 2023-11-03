@@ -1,0 +1,28 @@
+.logo-bar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 63px;
+   img {
+      height: 36px;
+   }
+}
+
+.location {
+   height: 50px;
+   background-color: #eaeaea;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   input {
+      text-align: center;
+      color: #353535;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: transparent;
+      border: transparent;
+      height: 50px;
+      width: 10rem;
+      outline: none;
+   }
+}
