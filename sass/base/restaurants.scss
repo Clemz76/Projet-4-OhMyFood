@@ -1,0 +1,80 @@
+.background-img {
+   width: 100%;
+   height: 275px;
+   object-fit: cover;
+}
+
+.restaurant {
+   background-color: $lightgrey;
+   padding-bottom: 30px;
+
+   h2 {
+      font-weight: 300;
+      font-size: 16px;
+      text-decoration: underline $cyan 3px;
+      margin-left: 10px;
+   }
+}
+
+.restaurant-title {
+   font-family: "Shrikhand", sans-serif;
+   font-size: 28px;
+   font-weight: 400;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 15px;
+   gap: 40px;
+
+   i {
+      font-size: 21px;
+   }
+}
+
+.dishes {
+   gap: 12px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 45px;
+}
+
+.dish {
+   width: 94%;
+   background-color: #ffffff;
+   border-radius: 15px;
+   box-shadow: 0px 4px 15px 0px #0000001a;
+   cursor: pointer;
+}
+
+.dish-content {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: end;
+}
+
+.dish-title {
+   h3 {
+      font-size: 18px;
+      margin: 12px 0 0 15px;
+   }
+   p {
+      font-size: 15px;
+      margin: 0 0 12px 15px;
+   }
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.dish-price {
+   display: flex;
+   justify-content: end;
+   p {
+      font-size: 15px;
+      font-weight: 700;
+      margin: 15px;
+      padding: 0;
+   }
+}
