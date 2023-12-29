@@ -21,11 +21,14 @@
    <body>
       <header>
          <div class="logo-bar">
+            <a href="../index.html">
+               <i class="fa-solid fa-arrow-left"></i>
+            </a>
             <img src="../assets/images/logo/ohmyfood.png" alt="Logo OhMyFood" />
          </div>
       </header>
 
-      <main class="darker">
+      <main>
          <div>
             <img
                class="background-img"
@@ -34,14 +37,28 @@
             />
          </div>
 
-         <section class="restaurant">
+         <section class="restaurant darker">
             <div class="restaurant-title">
                <h1>La palette du goût</h1>
-               <i class="empty-hearth fa-regular fa-heart"></i>
+               <div class="heart">
+                  <img
+                     alt="Empty Heart"
+                     class="heart-empty"
+                     src="../assets/images/hearts/heart_empty.png"
+                  />
+                  <img
+                     alt="Full Heart"
+                     class="heart-full"
+                     src="../assets/images/hearts/heart_full.png"
+                  />
+               </div>
             </div>
 
-            <h2>ENTRÉES</h2>
-            <div class="dishes">
+            <div>
+               <h2>ENTRÉES</h2>
+               <div class="green-lign"></div>
+            </div>
+            <div class="dishes entrees">
                <article class="dish">
                   <div class="dish-content">
                      <div class="dish-title">
@@ -51,6 +68,9 @@
                      <div class="dish-price">
                         <p>25€</p>
                      </div>
+                  </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
                   </div>
                </article>
 
@@ -64,44 +84,59 @@
                         <p>35€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
 
                <article class="dish">
                   <div class="dish-content">
                      <div class="dish-title">
-                        <h3>Oeuf au plat</h3>
+                        <h3>Œuf au plat</h3>
                         <p>Assaisonné à la truffe sur lit de caviar</p>
                      </div>
                      <div class="dish-price">
                         <p>20€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
             </div>
 
-            <h2>PLATS</h2>
-            <div class="dishes">
+            <div>
+               <h2>PLATS</h2>
+               <div class="green-lign"></div>
+            </div>
+            <div class="dishes plats">
                <article class="dish">
                   <div class="dish-content">
                      <div class="dish-title">
-                        <h3>Filets de boeuf aux herbes</h3>
+                        <h3>Filets de bœuf aux herbes</h3>
                         <p>Accompagné de sa ribambelle de légumes</p>
                      </div>
                      <div class="dish-price">
                         <p>40€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
 
                <article class="dish">
                   <div class="dish-content">
                      <div class="dish-title">
-                        <h3>Parmentier de queue de boeuf</h3>
+                        <h3>Parmentier de queue de bœuf</h3>
                         <p>À la truffe noire sur sa purée de panais</p>
                      </div>
                      <div class="dish-price">
                         <p>35€</p>
                      </div>
+                  </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
                   </div>
                </article>
 
@@ -115,12 +150,17 @@
                         <p>44€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
             </div>
-         </div>
 
-            <h2>DESSERTS</h2>
-            <div class="dishes">
+            <div>
+               <h2>DESSERTS</h2>
+               <div class="green-lign"></div>
+            </div>
+            <div class="dishes desserts">
                <article class="dish">
                   <div class="dish-content">
                      <div class="dish-title">
@@ -130,6 +170,9 @@
                      <div class="dish-price">
                         <p>18€</p>
                      </div>
+                  </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
                   </div>
                </article>
 
@@ -143,6 +186,9 @@
                         <p>22€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
 
                <article class="dish">
@@ -150,15 +196,20 @@
                      <div class="dish-title">
                         <h3>Mousse au chocolat</h3>
                         <p>Au piment d'Espelette et à la truffe noire</p>
-                        </div>
+                     </div>
                      <div class="dish-price">
                         <p>23€</p>
                      </div>
                   </div>
+                  <div class="check">
+                     <i class="fa-solid fa-circle-check"></i>
+                  </div>
                </article>
             </div>
 
-            <button class="btn-purple">Commander</button>
+            <div class="btn-div">
+               <button class="btn-purple">Commander</button>
+            </div>
          </section>
       </main>
 

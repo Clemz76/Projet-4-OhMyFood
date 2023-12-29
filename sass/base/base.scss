@@ -3,12 +3,16 @@
 body {
    font-family: "Roboto";
    margin: 0;
+   overflow-x: hidden;
 }
 
 h1 {
    font-size: 24px;
    font-weight: 700;
    margin: 0;
+   @media screen and (min-width: $desktop) {
+      font-size: 40px;
+   }
 }
 
 h2 {
@@ -18,10 +22,6 @@ h2 {
 
 .darker {
    background-color: #f6f6f6;
-}
-
-.paddings {
-   padding: 30px 20px;
 }
 
 .welcome {
@@ -49,5 +49,8 @@ h2 {
    border-radius: 40px;
    border: none;
    background: linear-gradient(#ff79da, #9356dc);
-   width: 75%;
+   width: 218px;
+   box-shadow: 0px 4px 10px 0px #00000040;
+   text-decoration: none;
+   max-width: 186px;
 }

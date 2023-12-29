@@ -1,0 +1,105 @@
+.btn-purple {
+   transition: all 500ms;
+   &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+      box-shadow: 0px 4px 10px 5px #00000040;
+   }
+}
+
+.heart-full {
+   opacity: 0;
+}
+
+.heart {
+   cursor: default;
+   &:hover {
+      .heart-full {
+         animation: heart 1s ease forwards;
+      }
+
+      @keyframes heart {
+         from {
+            opacity: 0;
+         }
+         to {
+            opacity: 1;
+         }
+      }
+   }
+}
+
+.check {
+   background-color: #99e2d0;
+   color: white;
+   border-radius: 0 15px 15px 0;
+   width: 0;
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.dish:hover {
+   .check {
+      width: 20%;
+      transition: width 500ms;
+   }
+}
+
+@keyframes check {
+   from {
+      width: 0;
+   }
+   to {
+      width: 20%;
+   }
+}
+
+.entrees {
+   opacity: 0;
+   animation: entrees 1s ease forwards;
+}
+
+@keyframes entrees {
+   from {
+      transform: translateX(100%);
+      opacity: 0;
+   }
+   to {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+
+.plats {
+   opacity: 0;
+   animation: plats 1s ease forwards 1s;
+}
+
+@keyframes plats {
+   from {
+      transform: translateX(100%);
+      opacity: 0;
+   }
+   to {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+
+.desserts {
+   opacity: 0;
+   animation: desserts 1s ease forwards 2s;
+}
+
+@keyframes desserts {
+   from {
+      transform: translateX(100%);
+      opacity: 0;
+   }
+   to {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}

@@ -3,8 +3,14 @@
    align-items: center;
    justify-content: center;
    height: 63px;
+   position: relative;
+   top: 5px;
+   @media screen and (min-width: $desktop) {
+      height: 96px;
+      top: 0px;
+   }
    img {
-      height: 36px;
+      height: 30px;
    }
 }
 
@@ -14,9 +20,13 @@
    display: flex;
    align-items: center;
    justify-content: center;
+
+   ::placeholder {
+      color: #353535;
+   }
+
    input {
       text-align: center;
-      color: #353535;
       font-size: 16px;
       font-weight: 500;
       background-color: transparent;
@@ -24,5 +34,16 @@
       height: 50px;
       width: 10rem;
       outline: none;
+   }
+}
+
+.fa-arrow-left {
+   color: #353535;
+   font-size: 20px;
+   position: absolute;
+   left: 20px;
+   top: 18px;
+   @media screen and (min-width: $desktop) {
+      top: 35px;
    }
 }
