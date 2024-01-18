@@ -18,6 +18,7 @@
       flex-direction: column;
       width: 80%;
       left: 10%;
+      align-items: center;
    }
 
    h2 {
@@ -74,7 +75,7 @@
 }
 
 .dish {
-   width: 94%;
+   width: 96%;
    background-color: #ffffff;
    border-radius: 15px;
    box-shadow: 0px 4px 15px 0px #0000001a;
@@ -117,5 +118,12 @@
       font-weight: 700;
       margin: 15px;
       padding: 0;
+   }
+}
+
+.desktop {
+   width: 100%;
+   @media screen and (min-width: $desktop) {
+      width: 70%;
    }
 }
