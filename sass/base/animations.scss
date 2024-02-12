@@ -40,9 +40,13 @@
    justify-content: center;
 }
 
+.fa-circle-check {
+   font-size: 20px;
+}
+
 .dish:hover {
    .check {
-      width: 20%;
+      width: 70px;
       transition: width 500ms;
    }
 }
