@@ -94,16 +94,23 @@
    justify-content: space-between;
    align-items: end;
    width: 100%;
+   overflow: hidden;
 }
 
 .dish-title {
    h3 {
       font-size: 18px;
       margin: 12px 0 0 15px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
    }
    p {
       font-size: 15px;
       margin: 0 0 12px 15px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
    }
    display: flex;
    flex-direction: column;
